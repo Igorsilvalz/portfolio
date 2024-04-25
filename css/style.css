@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+
+body {
+
+    background-image: linear-gradient(90deg, rgb(163, 163, 163), rgb(32, 32, 34));
+    
+}
+
+header { 
+    background-color: black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    
+}
+
+header img {
+    width: 100px;
+    border: 5px solid white ;
+    border-radius: 20px;
+} 
+
+header nav ul li {
+    color: white;
+    text-transform: uppercase;
+    display: inline;
+    padding: 15px;
+}
+
+header nav{
+    padding: 40px;
+}
+
+header nav ul a {
+    text-decoration: none;
+
+}
+
+header nav ul a li:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.123);
+    transition: 1s;
+}
+/** hover serve para alterar o estilo quando mouse estiver em cima do elemento.
+/** flex- direction : row , serve para definir a direção dos itens no layout.
+/** align- itens: horizontalmente.
+/** justify-content: verticalmente.
+/** git é a ferramente para controle de arquivos.
+/** github é o site para disponibilizar os arquivos.
+/** git init é o comando para adicionar o git a sua pasta de projetos e poder utilizar todos os recursos da ferramente.
+/** git status serve para mostrar o status dos arquivos dentro deste projeto.
+/** git add . comando para adicionar os arquivos na lista de monitoramento para ser commitado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
